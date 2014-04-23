@@ -1,0 +1,35 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns = "http://www.w3.org/1999/xhtml">
+<head>
+<title>Tetris</title>
+
+<script type = "text/javascript">
+
+function readme(){
+	window.location="readme.html";
+}
+
+function size(){
+
+  var level=prompt("Please select size ('1' for 10x15 or '2' for 15X20): ");
+
+  if (level=="1"){
+    window.location="10x15/10x15.html";
+  } else if (level=="2") {
+    window.location="15x20/15x20.html";
+  }
+
+}
+
+</script>
+</head>
+<body>
+
+<div>HTML5 Tetris</div>
+<div><button id="start" onclick="size()">Start Now!</button>
+<button id="readme" onclick="readme()">Readme!</button></div>
+
+</body>
+</html>

@@ -1,0 +1,35 @@
+#tetris {
+	width:30em;
+	overflow:hidden;
+}
+
+#grid10x15{
+	float:right;
+}
+
+#grid10x15 table,  #next table {
+	border:0.2em solid #000000;
+}
+
+#grid10x15 td {
+	width:1.2em;
+	height:1.2em;
+	border:2px solid #000000;
+}
+
+#next td{
+	width:1.2em;
+	height:1.2em;
+}
+
+#next {
+	margin-bottom:1em;
+}
+
+#src {
+	color:#FFF;
+}
+
+#heading {
+	font-size: xx-large;
+}

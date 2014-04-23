@@ -1,0 +1,52 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns = "http://www.w3.org/1999/xhtml">
+<head>
+<title>Tetris - Readme</title>
+
+<style>
+
+.heading {font-size: xx-large; color: red;}
+.sub-heading {font-size: x-large; width: 400px; border-width: 5px; border-color: #000000; border-style: solid;}
+.content {width: 400px; text-align: justify;}
+
+</style>
+
+<script type = "text/javascript">
+
+function startpage(){
+	window.location="index.html";
+}
+
+function size(){
+
+  var level=prompt("Please select size ('1' for 10x15 or '2' for 15X20): ");
+
+  if (level=="1"){
+    window.location="10x15/10x15.html";
+  } else if (level=="2") {
+    window.location="15x20/15x20.html";
+  }
+
+}
+
+</script>
+</head>
+<body>
+
+<div class="heading">Tetris - Readme</div></p>
+
+<div class="sub-heading">Short Playing Time</div>
+<div class="content">For both large size and small size Tetris, the time allowed is only 1 minute for each game. When time is up, the game will end and redirect to the start page of Tetris. This would prevent the elderly to spend too much time on play it.</div></p>
+
+<div class="sub-heading">Plain Game Layout</div>
+<div class="content">The game page is not designed in a colorful way. Instead, the game layout is quite plain. This makes the elderly feel comfortable when they play this game. Otherwise, eyes may easily feel tired.</div></p>
+
+<div class="button">
+<button id="main" onclick="startpage()">Go to Main Page!</button>
+<button id="start" onclick="size()">Start Game!</button></div>
+</div>
+
+</body>
+</html>
